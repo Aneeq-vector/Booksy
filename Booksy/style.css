@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #f7d5dc;
+    
+}
+
+/* Navbar */
+.navbar{
+    padding: 20px 0 15px 30px;
+    color: #4b2c35;
+    font-size: 20px;
+}
+
+/* Navbar */
+.container{
+    padding: 20px;
+}
+
+.book-container{
+    background-color: #5b2333;
+    color: #f7f4f3;
+    padding: 30px;
+    margin: 30px;
+    width: 25%;
+    border-radius: 15px;
+    position: relative;
+    box-shadow: 0 5px 15px rgba(0.2, 0.3, 0.5, 0.6);
+    transition: 0.3s ease-in-out;
+    border: none;
+}
+.book-container:hover{
+    scale: 1.02;
+    transition: 0.3s ease-in-out;
+}
+.book-container h2{
+    margin-bottom: 5px;
+}
+.book-container h5{
+    margin-bottom: 5px;
+    color: #d2afb9;
+}
+.book-container p{
+    margin-bottom: 40px;
+    color: #d2c5c9;
+}
+
+#deletebtn{
+    padding: 5px 20px;
+    border-radius: 9px;
+    background-color: #f7d5dc;
+    color: #4b2c35;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 600;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    border: none;
+}
+
+#deletebtn:hover{
+    scale: 1.02;
+    transition: 0.3s ease-in-out;
+}
+
+/* Add button */
+.add-btn{
+    background-color: #5b2333;
+    color: #f7d5dc;
+    border-radius: 100%;
+    padding: 8px 27px;
+    border: none;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 3rem;
+    box-shadow: 0 5px 15px rgba(0.2, 0.2, 0.2, 0.6);
+    transition: 0.3s ease-in-out;
+}
+
+.add-btn:hover{
+    scale: 1.03;
+    transition: 0.3s ease-in-out;
+}
+
+/* Popup-overlay */
+.popup-overlay{
+    background-color: #4b2c35;
+    opacity: 0.9;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: none;
+}
+
+/* Popup Box */
+.popup-box{
+    background-color: #f7d5dc;
+    width: 40%;
+    padding: 40px;
+    border-radius: 25px;
+    position: absolute;
+    top: 20%;
+    left: 27%;
+    z-index: 2;
+    color: #5b2333;
+    display: none;
+}
+
+.popup-box h2{
+    margin-left: 8px;
+    margin-bottom: 5px;
+}
+
+.popup-box input,textarea{
+    background: transparent;
+    border: none;
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    border-bottom: solid;
+    border-color: #5b2333;
+}
+
+.popup-box textarea{
+    border: solid #5b2333;
+    border-radius: 10px;
+    padding: 10px 0 20px 10px;
+}
+
+.popup-box input::placeholder{
+    color: #4b2c35;
+    opacity: 0.8;
+}
+
+.popup-box textarea::placeholder{
+    color: #4b2c35;
+    opacity: 0.8;
+    font-family: 'Poppins',sans-serif;
+}
+
+.popup-box input,textarea:focus{
+    outline: none;
+}
+
+.popup-box button{
+    background-color: #5b2333;
+    color: #f7d5dc;
+    padding: 6px 15px;
+    margin-right: 15px;
+    border-radius: 15px;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 0 5px 15px rgba(0.2, 0.2, 0.2, 0.6);
+    transition: 0.3s ease-in-out;
+}
+
+.popup-box #add-book{
+    margin-left: 6px;
+    padding: 6px 23px;
+}
+
+.popup-box button:hover{
+    scale: 1.03;
+    transition: 0.3s ease-in-out;
+}
