@@ -10,7 +10,7 @@ Welcome to **Booksky**, a simple web application that allows you to add, view, a
 ## 🛠️ Installation
 To use this project, follow these steps:
 
-```sh
+
 git clone https://github.com/yourusername/booksky.git
 cd booksky
 code .
@@ -27,5 +27,9 @@ code .
 
 ## 📸 Screenshot
 ![Booksky Preview](Screenshot-interface.png)
-![Booksky Preview](Screenshot-popup box.png)
+![Booksky Preview](Screenshot-popupbox.png)
 
+## 👨‍💻 Author
+- **Aneeq Ahmed**  
+  - 🔗 [GitHub](https://github.com/Aneeq-vector)
+  - 🔗 [LinkedIn](https://www.linkedin.com/in/ahmed-aneeq-b8b073325/)
