@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Booksy</title>
-    <link rel="icon" href="/Elements/book.png">
+    <link rel="icon" href="Elements/book.png">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,6 +14,7 @@
     <!-- Navbar -->
     <div class="navbar">
         <h1>Booksky</h1>
+        <h3>Mark your favourite Books</h3>
     </div>
 
     <!-- Popup -->
@@ -35,13 +36,32 @@
             <h2>The Alchemist</h2>
             <h5>Paulo Coelho</h5>
             <p>A young shepherd, Santiago, embarks on a journey to find treasure in Egypt, discovering his true destiny along the way. The book explores dreams, fate, and self-discovery.</p>
-            <button id="deletebtn">Delete</button>
+            <button id="deletebtn" onclick="deletebook(event)">Delete</button>
         </div>
     </div>
 
     <!-- Add button -->
     <button class="add-btn" id="add-popupbtn">+</button>
 
+
+    <!-- Footer Section -->
+    <footer>
+        <p>Made By <strong>Ahmed Aneeq</strong></p>
+        <div class="socialicons">
+            <a href="https://web.facebook.com/ahmedaneeqfb/" class="facebook">
+                <img src="Elements/facebook-icon.png" id="facebook-icon">
+            </a>
+            <a href="https://www.instagram.com/mr_xnee/" class="instagram">
+                <img src="Elements/instagram-icon.png" id="instagram-icon">
+            </a>
+            <a href="https://www.linkedin.com/in/ahmed-aneeq-b8b073325/" class="linkedin">
+                <img src="Elements/linkedin-icon.png" id="linkedin-icon">
+            </a>
+            <a href="https://github.com/Aneeq-vector" class="github">
+                <img src="Elements/github-icon.png" id="github-icon">
+            </a>
+        </div>
+     </footer>
 
 
     <script src="script.js"></script>
