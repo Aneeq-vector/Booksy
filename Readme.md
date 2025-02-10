@@ -1,24 +1,31 @@
-📚 BookSky - Bookmark Your Favorite Books
-Welcome to BookSky, a simple web app that lets you bookmark your favorite books! 🚀
+# 📚 Booksky - Mark Your Favourite Books
 
-🌟 Features
-📖 Add and save books with title, author, and description.
-🗑️ Delete books from your list.
-🎨 Clean and aesthetic UI.
-🛠️ Technologies Used
-HTML - Structure of the app
-CSS - Styling and responsiveness
-JavaScript - Dynamic interactions
-🚀 Getting Started
-Clone the repository:
-bash
-Copy
-Edit
-git clone https://github.com/YOUR_GITHUB_USERNAME/BookSky.git
-Open index.html in your browser.
-📸 Preview
+Welcome to **Booksky**, a simple web application that allows you to add, view, and manage your favorite books. 📖✨
 
-💡 How It Works
-Click the "Add" button to open the book entry form.
-Fill in the details and press "Add" to save.
-Hover over books to see cool UI effects!
+## 🚀 Features
+- 📌 Add books with title, author, and description.
+- 🗑️ Delete books from the list.
+- 🎨 Responsive and beautiful UI.
+
+## 🛠️ Installation
+To use this project, follow these steps:
+
+```sh
+git clone https://github.com/yourusername/booksky.git
+cd booksky
+code .
+
+## 🖥️ Usage
+- Click the **Add** button to enter book details.
+- Press **Delete** to remove a book.
+- Enjoy organizing your book collection! 🎉
+
+## 🖌️ Technologies Used
+- HTML5  
+- CSS3  
+- JavaScript  
+
+## 📸 Screenshot
+![Booksky Preview](Screenshot-interface.png)
+![Booksky Preview](Screenshot-popup box.png)
+
