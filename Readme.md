@@ -30,6 +30,6 @@ code .
 ![Booksky Preview](Booksy/Screenshot-popupbox.png)
 
 ## 👨‍💻 Author
-- **Aneeq Ahmed**  
+- **Ahmed Aneeq**  
   - 🔗 [GitHub](https://github.com/Aneeq-vector)
   - 🔗 [LinkedIn](https://www.linkedin.com/in/ahmed-aneeq-b8b073325/)
